@@ -1,4 +1,6 @@
 var fs = require('fs');
+
+var RESULT_FILE = 'pandora.json';
 var output = [];
 var result = [];
 
@@ -42,7 +44,7 @@ var result = [];
 	}
 
 	var json = JSON.stringify(result, null, 4); 
-	fs.writeFile('pandora.json', json, (err) => {
+	fs.writeFile(RESULT_FILE, json, (err) => {
 		if (!err) console.log('Success!')
 		else console.log('Error!');
 	});
