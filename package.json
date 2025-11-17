@@ -20,7 +20,7 @@
     "test:watch": "NODE_OPTIONS=--experimental-vm-modules jest --watch",
     "test:coverage": "NODE_OPTIONS=--experimental-vm-modules jest --coverage",
     "test:ci": "NODE_OPTIONS=--experimental-vm-modules jest --ci --coverage --maxWorkers=2",
-    "prepare": "husky install || true",
+    "prepare": "husky",
     "typecheck": "tsc --noEmit",
     "clean": "rm -rf node_modules coverage dist *.log",
     "clean:output": "rm -rf output/*.js pandora.json",
