@@ -1,6 +1,5 @@
 # Dependencies
 node_modules/
-package-lock.json
 yarn.lock
 pnpm-lock.yaml
 
@@ -9,6 +8,7 @@ output/*.js
 pandora.json
 *.json
 !package.json
+!package-lock.json
 !jsdoc.json
 !tsconfig.json
 
