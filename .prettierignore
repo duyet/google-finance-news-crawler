@@ -1,0 +1,14 @@
+node_modules
+coverage
+dist
+build
+output
+*.json
+!package.json
+!tsconfig.json
+!.prettierrc.json
+*.md
+!README.md
+!CLAUDE.md
+.git
+.husky

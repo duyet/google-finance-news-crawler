@@ -1,0 +1,45 @@
+# Test files
+src/__tests__/
+*.test.js
+coverage/
+
+# Development files
+.husky/
+.github/
+.vscode/
+.idea/
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Config files
+.editorconfig
+.eslintrc.*
+.prettierrc.*
+.prettierignore
+tsconfig.json
+jest.config.js
+
+# Output
+output/
+*.json
+!package.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Other
+.gitignore
+.gitattributes
